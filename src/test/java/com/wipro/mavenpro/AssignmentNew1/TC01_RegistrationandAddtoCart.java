@@ -35,6 +35,7 @@ public class  TC01_RegistrationandAddtoCart extends InitiateDriver {
 		OpencartHome.CreateAccount(driver).click();
 		
 		//adding one line
+		String num;
 		
 		//Fill data in Create Account page
 		AccountRegister.FirstName(driver).sendKeys(hashdata.get("FirstName"));
