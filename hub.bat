@@ -1,0 +1,1 @@
+java -jar selenium-server-standalone-3.8.1.jaR -role hub -cleanUpCycle 5000 -timeout 60

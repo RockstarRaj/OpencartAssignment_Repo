@@ -13,9 +13,12 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.LogStatus;
 
+import utils.DataProviders;
 import utils.ExtentTestManager;
 
 public class InitiateDriver {
@@ -27,26 +30,29 @@ public class InitiateDriver {
         return driver;
     }
 
-	@BeforeSuite
-	//@Parameters( "mybrowser" )
-	public void DriverIntiate() throws MalformedURLException
+	@BeforeTest
+	@Parameters( "mybrowser" )
+	public void DriverIntiate(String mybrowser) throws MalformedURLException, InterruptedException
 	{
-		System.setProperty("webdriver.chrome.driver","D:/Automation/chromedriver.exe");
-		driver = new ChromeDriver();
-		/*if(mybrowser.equals("chrome"))
+		/*System.setProperty("webdriver.chrome.driver","D:/Automation/chromedriver.exe");
+		driver = new ChromeDriver();*/
+		ExtentTestManager.startTest("Suite1","Opencart Suite execution");
+		if(mybrowser.equals("chrome"))
 		{
 			DesiredCapabilities cap = DesiredCapabilities.chrome();
 			driver = new RemoteWebDriver(new URL("http://10.159.34.92:4444/wd/hub"),cap);
+			ExtentTestManager.getTest().log(LogStatus.INFO, "This test intiated in Chrome browser");
 		}
 		else if(mybrowser.equals("iexplorer"))
 		{
+			Thread.sleep(3000);
 			DesiredCapabilities cap = DesiredCapabilities.internetExplorer();	
 			driver = new RemoteWebDriver(new URL("http://10.159.34.92:4444/wd/hub"),cap);
-		}*/
- 		
+			ExtentTestManager.getTest().log(LogStatus.INFO, "This test intiated in IE browser");
+		}
 		driver.get("http://10.207.182.108:81/opencart/");
 		driver.manage().window().maximize();
-		ExtentTestManager.startTest("Suite1","Opencart Suite execution");
+		
 	}
 	
 	@BeforeClass

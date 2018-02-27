@@ -7,17 +7,16 @@
     </listeners>
     
     <test name="LoginTest">
-    <!-- <parameter name="mybrowser" value="chrome"/> -->
+    <parameter name="mybrowser" value="chrome"/>
         <classes>
             <!-- <class name="com.wipro.mavenpro.AssignmentNew1.Test1" /> -->
             <class name="com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart" />
         </classes>
     </test>
-    <!-- <test name="LoginTest2">
+    <test name="LoginTest2">
     <parameter name="mybrowser" value="iexplorer"/>
         <classes>
-            <class name="com.wipro.mavenpro.AssignmentNew1.Test1" />
             <class name="com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart" />
         </classes>
-    </test> -->
+    </test>
 </suite> <!-- Suite -->

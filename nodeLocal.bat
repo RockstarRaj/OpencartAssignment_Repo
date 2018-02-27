@@ -1,0 +1,1 @@
+java -Dwebdriver.driver.chrome=D:\Automation\chromedriver.exe -Dwebdriver.ie.driver=D:\Automation\IEDriverServer.exe -jar selenium-server-standalone-3.8.1.jar -role node -hub http://10.159.34.92:4444/gird/register -port 5555 -browser browserName=chrome,maxInstances=2 -browser browserName="internet explorer"

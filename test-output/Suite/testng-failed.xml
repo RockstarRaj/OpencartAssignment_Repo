@@ -5,16 +5,17 @@
     <listener class-name="utils.TestListener"/>
     <listener class-name="utils.AnnotationTransformer"/>
   </listeners>
-  <test name="LoginTest(failed)" parallel="tests">
+  <test name="LoginTest2(failed)" parallel="tests">
+    <parameter name="mybrowser" value="iexplorer"/>
     <classes>
       <class name="com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart">
         <methods>
           <include name="DriverIntiate"/>
           <include name="beforeClass"/>
-          <include name="RegistrationandAddtoCart"/>
+          <include name="RegistrationandAddtoCart" invocation-numbers="0 0"/>
           <include name="ConClose"/>
         </methods>
       </class> <!-- com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart -->
     </classes>
-  </test> <!-- LoginTest(failed) -->
+  </test> <!-- LoginTest2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

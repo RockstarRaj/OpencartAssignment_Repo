@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18997" started-at="2018-02-20T06:32:43Z" finished-at="2018-02-20T06:33:02Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="18997" started-at="2018-02-20T06:32:43Z" finished-at="2018-02-20T06:33:02Z">
+      <class name="com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart">
+        <test-method status="PASS" signature="DriverIntiate()[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@22f71333]" name="DriverIntiate" is-config="true" duration-ms="28113" started-at="2018-02-20T12:02:15Z" finished-at="2018-02-20T12:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverIntiate -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@22f71333]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-02-20T12:02:43Z" finished-at="2018-02-20T12:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="RegistrationandAddtoCart(java.util.Hashtable)[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@22f71333]" name="RegistrationandAddtoCart" duration-ms="10461" started-at="2018-02-20T12:02:52Z" data-provider="CreateAccount" finished-at="2018-02-20T12:03:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Postcode=500072, Company=wiphro, Email=User, Telephone=81029323, Password=work1, LastName=Aakash, RegionState=Funafuti, City=Hyderabad, FirstName=Raj, Address1=Attapur, Country=Tuvalu}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationandAddtoCart -->
+        <test-method status="PASS" signature="ConClose()[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@22f71333]" name="ConClose" is-config="true" duration-ms="1292" started-at="2018-02-20T12:03:04Z" finished-at="2018-02-20T12:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConClose -->
+      </class> <!-- com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>

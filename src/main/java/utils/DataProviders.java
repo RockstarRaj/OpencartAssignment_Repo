@@ -10,6 +10,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.ITestContext;
 import org.testng.annotations.DataProvider;
 
 public class DataProviders {
@@ -54,5 +55,16 @@ public class DataProviders {
 		return obj;
 	}
 	
+	 @DataProvider
+	    public Object[][] getData(ITestContext context) {
+	        String parameter = context.getCurrentXmlTest().getLocalParameters().get("mybrowser");
+	        String[] names = parameter.split(",");
+	        Object[][] returnValues = new Object[names.length][1];
+	        int index = 0;
+	        for (Object[] each : returnValues) {
+	            each[0] = names[index++].trim();
+	        }
+	        return returnValues;
+	    }
 
 }
