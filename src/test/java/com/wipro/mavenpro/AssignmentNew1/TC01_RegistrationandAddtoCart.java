@@ -37,7 +37,7 @@ public class  TC01_RegistrationandAddtoCart extends InitiateDriver {
 		//Fill data in Create Account page
 		AccountRegister.FirstName(driver).sendKeys(hashdata.get("FirstName"));
 		AccountRegister.LastName(driver).sendKeys(hashdata.get("LastName"));
-		AccountRegister.Email(driver).sendKeys(hashdata.get("Email")+FunctionLibrary.UEmailId()+"@email.com");
+		//AccountRegister.Email(driver).sendKeys(hashdata.get("Email")+FunctionLibrary.UEmailId()+"@email.com");
 		AccountRegister.Email(driver).sendKeys(System.nanoTime()+"@email.com");
 		AccountRegister.Telephone(driver).sendKeys(hashdata.get("Telephone"));
 		AccountRegister.Company(driver).sendKeys(hashdata.get("Company"));

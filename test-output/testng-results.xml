@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="45229" started-at="2018-02-26T13:32:59Z" finished-at="2018-02-26T13:33:44Z">
+  <suite name="Suite" duration-ms="40302" started-at="2018-02-27T09:24:20Z" finished-at="2018-02-27T09:25:01Z">
     <groups>
     </groups>
-    <test name="LoginTest" duration-ms="14809" started-at="2018-02-26T13:32:59Z" finished-at="2018-02-26T13:33:14Z">
+    <test name="LoginTest" duration-ms="12693" started-at="2018-02-27T09:24:20Z" finished-at="2018-02-27T09:24:33Z">
       <class name="com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart">
-        <test-method status="PASS" signature="DriverIntiate(java.lang.String)[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@14bf9759]" name="DriverIntiate" is-config="true" duration-ms="5356" started-at="2018-02-26T19:02:59Z" finished-at="2018-02-26T19:03:04Z">
+        <test-method status="PASS" signature="DriverIntiate(java.lang.String)[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@5f341870]" name="DriverIntiate" is-config="true" duration-ms="4604" started-at="2018-02-27T14:54:20Z" finished-at="2018-02-27T14:54:25Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DriverIntiate -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@14bf9759]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-02-26T19:03:04Z" finished-at="2018-02-26T19:03:04Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@5f341870]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-02-27T14:54:25Z" finished-at="2018-02-27T14:54:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="RegistrationandAddtoCart(java.util.Hashtable)[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@14bf9759]" name="RegistrationandAddtoCart" duration-ms="8772" started-at="2018-02-26T19:03:05Z" data-provider="CreateAccount" finished-at="2018-02-26T19:03:14Z">
+        <test-method status="PASS" signature="RegistrationandAddtoCart(java.util.Hashtable)[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@5f341870]" name="RegistrationandAddtoCart" duration-ms="7107" started-at="2018-02-27T14:54:26Z" data-provider="CreateAccount" finished-at="2018-02-27T14:54:33Z">
           <params>
             <param index="0">
               <value>
@@ -33,11 +33,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegistrationandAddtoCart -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@5f341870]" name="afterClass" is-config="true" duration-ms="491" started-at="2018-02-27T14:54:33Z" finished-at="2018-02-27T14:54:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart -->
     </test> <!-- LoginTest -->
-    <test name="LoginTest2" duration-ms="45229" started-at="2018-02-26T13:32:59Z" finished-at="2018-02-26T13:33:44Z">
+    <test name="LoginTest2" duration-ms="40302" started-at="2018-02-27T09:24:20Z" finished-at="2018-02-27T09:25:01Z">
       <class name="com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart">
-        <test-method status="PASS" signature="DriverIntiate(java.lang.String)[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@56ef9176]" name="DriverIntiate" is-config="true" duration-ms="7023" started-at="2018-02-26T19:02:59Z" finished-at="2018-02-26T19:03:06Z">
+        <test-method status="PASS" signature="DriverIntiate(java.lang.String)[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@4566e5bd]" name="DriverIntiate" is-config="true" duration-ms="7828" started-at="2018-02-27T14:54:20Z" finished-at="2018-02-27T14:54:28Z">
           <params>
             <param index="0">
               <value>
@@ -48,11 +52,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DriverIntiate -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@56ef9176]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-02-26T19:03:06Z" finished-at="2018-02-26T19:03:06Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@4566e5bd]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-02-27T14:54:28Z" finished-at="2018-02-27T14:54:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="RegistrationandAddtoCart(java.util.Hashtable)[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@56ef9176]" name="RegistrationandAddtoCart" duration-ms="38154" started-at="2018-02-26T19:03:06Z" data-provider="CreateAccount" finished-at="2018-02-26T19:03:44Z">
+        <test-method status="PASS" signature="RegistrationandAddtoCart(java.util.Hashtable)[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@4566e5bd]" name="RegistrationandAddtoCart" duration-ms="32377" started-at="2018-02-27T14:54:28Z" data-provider="CreateAccount" finished-at="2018-02-27T14:55:01Z">
           <params>
             <param index="0">
               <value>
@@ -63,7 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegistrationandAddtoCart -->
-        <test-method status="PASS" signature="ConClose()[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@56ef9176]" name="ConClose" is-config="true" duration-ms="30" started-at="2018-02-26T19:03:44Z" finished-at="2018-02-26T19:03:44Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@4566e5bd]" name="afterClass" is-config="true" duration-ms="23" started-at="2018-02-27T14:55:01Z" finished-at="2018-02-27T14:55:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="ConClose()[pri:0, instance:com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart@4566e5bd]" name="ConClose" is-config="true" duration-ms="16" started-at="2018-02-27T14:55:01Z" finished-at="2018-02-27T14:55:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConClose -->

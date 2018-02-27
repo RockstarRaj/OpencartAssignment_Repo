@@ -5,8 +5,8 @@
     <listener class-name="utils.TestListener"/>
     <listener class-name="utils.AnnotationTransformer"/>
   </listeners>
-  <test name="LoginTest2(failed)" parallel="tests">
-    <parameter name="mybrowser" value="iexplorer"/>
+  <test name="LoginTest(failed)" parallel="tests">
+    <parameter name="mybrowser" value="chrome"/>
     <classes>
       <class name="com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart">
         <methods>
@@ -14,8 +14,9 @@
           <include name="beforeClass"/>
           <include name="RegistrationandAddtoCart" invocation-numbers="0 0"/>
           <include name="ConClose"/>
+          <include name="afterClass"/>
         </methods>
       </class> <!-- com.wipro.mavenpro.AssignmentNew1.TC01_RegistrationandAddtoCart -->
     </classes>
-  </test> <!-- LoginTest2(failed) -->
+  </test> <!-- LoginTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

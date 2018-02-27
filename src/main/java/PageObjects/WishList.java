@@ -41,7 +41,7 @@ public class WishList {
 
 	public static WebElement RemoveIcon(WebDriver driver)
 	{
-		element = driver.findElement(By.xpath("//img[@title='Remove']"));
+		element = driver.findElement(By.xpath("//div[@class='wishlist-info']//img[@title='Remove']"));
 		return element;
 	}
 	
