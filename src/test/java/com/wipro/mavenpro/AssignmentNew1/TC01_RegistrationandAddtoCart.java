@@ -37,6 +37,7 @@ public class  TC01_RegistrationandAddtoCart extends InitiateDriver {
 		//adding one line
 		String num;
 		String num2;
+		//new line 2
 		
 		//Fill data in Create Account page
 		AccountRegister.FirstName(driver).sendKeys(hashdata.get("FirstName"));
